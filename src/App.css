@@ -1,0 +1,45 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.user-card, .album-card, .photo-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.user-card:hover, .album-card:hover, .photo-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.user-card a, .album-card a {
+  display: inline-block;
+  text-decoration: none;
+  color: #007BFF;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  border: 1px solid #dae0e5;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.user-card a:hover, .album-card a:hover {
+  background-color: #e2e6ea;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 10px;
+}
